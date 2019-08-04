@@ -20,11 +20,12 @@ end
 
 def get_user_input
   # code #get_user_input here
-  get.chomp
+  gets.chomp
 end
 
-def end_game
+def end_game(final_total)
   # code #end_game here
+  puts 
 end
 
 def initial_round
